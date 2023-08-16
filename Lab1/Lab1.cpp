@@ -1,4 +1,4 @@
-//CG1
+//CG1-Nischal
 #include<stdio.h>
 #include<iostream.h>
 #include<conio.h>
@@ -56,9 +56,12 @@ cin>>y;
 cout<<"Enter x2 and y2 resp";
 cin>>x1;
 cin>>y1;
+cout<<"Enter x3 and y3 resp";
+cin>>x2;
+cin>>y2;
 line(x,y,x1,y1);
-line(x,y,x1,y1);
-line(x,y,x1,y1);
+line(x,y,x2,y2);
+line(x1,y1,x2,y2);
 break;
 
 case 6:
